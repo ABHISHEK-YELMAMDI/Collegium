@@ -1,0 +1,75 @@
+#upgrade-btn{
+    display: none;
+}
+
+#getCertificate-btn,#videos-btn{
+    display: none;
+}
+
+#Freewebsite-btn{
+    display: none;
+}
+#tutorial-btn,#refernces-btn,#exercise-btn{
+    display: none;
+   }
+
+   #menu-btn_mobile{
+    display: flex;
+   }
+
+   .ToggleLightDark-btn{display: none;
+   }
+
+   .Toggle_Lang,
+   .Toggle_search{
+       display: none;
+   }
+
+@media all and (min-width:1300px){
+    #upgrade-btn{
+        display: block;
+    }
+}
+
+@media all and (min-width:1200px){
+    #getCertificate-btn{
+        display: block;
+    }
+    #videos-btn{
+        display: flex;
+    } 
+}
+
+@media all and (min-width:950px) {
+    #Freewebsite-btn{
+        display: block;
+    }
+}
+
+@media all and (min-width:850px){
+   #tutorial-btn,#refernces-btn,#exercise-btn{
+    display: flex;
+   }
+   #menu-btn_mobile{
+    display: none;
+   }
+}
+
+@media all and (min-width:600px) {
+    .ToggleLightDark-btn{display: block;
+    }
+}
+
+@media all and (min-width:425px){
+    .header-right a:last-child{
+        padding: 10px 45px;
+    }
+}
+@media all and (min-width:375px){
+    .Toggle_Lang,
+    .Toggle_search{
+        display: block;
+    }
+}
+
+

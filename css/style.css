@@ -1,0 +1,104 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Hero Section */
+.hero-section-content {
+    background-image: url('/imges/workplace-arrangement-purple-background-with-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #090909;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #cc5200;
+}
+
+/* Footer Section */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    background-image: url('/imges/workplace-arrangement-purple-background-with-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f3f1f1;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

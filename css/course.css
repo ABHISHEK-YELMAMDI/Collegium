@@ -1,0 +1,42 @@
+/* Course Search Section */
+.course-search-section {
+    background-image: url(/imges/search\ course\ background.avif);
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.course-search-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#course-search {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#course-list {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#course-list li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#course-list li:hover {
+    background-color: #f0f0f0;
+}

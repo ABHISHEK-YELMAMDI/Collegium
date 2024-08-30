@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collegium - Home</title>
+    <link rel="icon" href="/imges/logo.jpeg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/Collegium.css">
+    <link rel="stylesheet" href="./css/Responsive.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/nested navi.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="#">
+                <div class="Collegium-logo" class="menu-btn">
+                    <!-- Add the logo image here -->
+                    <img src="./imges/logo.jpeg" alt="Collegium Logo" style="height: 40px; width: auto;">
+                </div>
+            </a>
+            <div href="#Tutorial" class="menu-btn" id="tutorial-btn">
+                Tutorial
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div href="#References" class="menu-btn" id="refernces-btn">
+                References
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div href="#Exercises" class="menu-btn" id="exercise-btn">
+                Exercises
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div href="#Videos" class="menu-btn" id="videos-btn">
+                Videos
+            </div>
+
+            <!--mobile view menu-->
+            <div class="menu-btn" id="menu-btn_mobile">
+                Menu
+                <i class="fa-solid fa-caret-down" class="menu-btn"></i>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="ToggleLightDark-btn">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </div>
+            <div class="Toggle_Lang">
+                <i class="fa-solid fa-language"></i>
+            </div>
+            <div class="Toggle_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="#Upgrade" class="btn btn-link bg-black" id="upgrade-btn">
+                Upgrade
+            </a>
+            <a href="#GetCertificate" class="btn btn-link bg-red" id="getCertificate-btn">
+                Get Certificate
+            </a>
+            <a href="#FreeWebsite" class="btn btn-link bg-green" id="Freewebsite-btn">
+                Free Website
+            </a>
+            <a href="#login" class="btn btn-link bg-yellow" id="Login-btn">
+                Login
+            </a>
+        </div>
+    </header>
+
+    <div class="mobile-menu-container" id="mobile-menu-nav">
+        <div class="mobile-menu-close-btn">
+            <button id="mobile-Nav-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <ul>
+            <a href="#Tutorial" class="menu-btn-mobile_menu" >
+                Tutorials
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <a href="#References" class="menu-btn-mobile_menu" >
+                References
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <a href="#Exercises" class="menu-btn-mobile_menu">
+                Exercises
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <a href="#get Certified" class="menu-btn-mobile_menu">
+                Get Certified
+            </a>
+            <a href="#upgrade" class="menu-btn-mobile_menu">
+                Upgrade
+            </a>
+            <a href="#spaces" class="menu-btn-mobile_menu">
+                Spaces
+            </a>
+            <a href="#Videos" class="menu-btn-mobile_menu">
+                Videos
+            </a>
+            <a href="#shop" class="menu-btn-mobile_menu">
+                Shop
+            </a>
+        </ul>
+
+    </div>
+
+    
+<!---Nested navi control--->
+<div class="Nested-navigation-container nested_navigation_hidden" id="nested-navigation-container_id">
+   <div class="Nested-navigation-container-close-btn" id="nested-navigation-close-btn">
+    <button id="nested-Nav-close"><i class="fa-solid fa-xmark"></i></button>
+   </div>
+
+   <div class="nested-navigation-container_content">
+    <h1>Tutorials</h1>
+    <div class="nested-navigation-container_content_data">
+        <div class="nested-navigation_items">
+            <h2>HTML and CSS</h2>
+            <a href="">LEARN HTML</a>  
+            <a href="">LEARN CSS</a>
+            <a href="">LEARN RWD</a>     
+         </div>
+        <div class="nested-navigation_items">
+            <h2>JavaScript</h2>
+            <a href="">LEARN JavaScript</a>  
+            <a href="">LEARN jQuery</a>
+            <a href="">LEARN React</a> 
+        </div>
+        <div class="nested-navigation_items">
+            <h2>Server Side</h2>
+            <a href="">LEARN SQL</a>  
+            <a href="">LEARN mySQL</a>
+            <a href="">LEARN PHP</a> 
+        </div>
+        <div class="nested-navigation_items">
+            <h2>Data Analytics</h2>
+            <a href="">LEARN Al</a>  
+            <a href="">LEARN Machine Learning</a>
+            <a href="">LEARN Data Science</a> 
+        </div>
+    </div>
+   </div>
+</div>
+
+
+    <!-- Hero Section Content -->
+    <div class="hero-section-content">
+        <div class="container">
+            <h1>Welcome to Collegium</h1>
+            <p>Empowering Minds, One Course at a Time</p>
+            <a href="#" class="cta-btn" id="get-started-btn">Get Started</a>
+        </div>
+    </div>
+
+    <!-- Interactive Course Search (Hidden by Default) -->
+    <section class="course-search-section" id="course-search-section" style="display: none;">
+        <div class="container">
+            <h2>Find Your Course</h2>
+            <input type="text" id="course-search" placeholder="Search for a course...">
+            <ul id="course-list"></ul>
+        </div>
+    </section>
+
+    <!-- Footer Content -->
+    <div class="footer-content">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+        <a href="#">Team</a>
+        <a href="#">About</a>
+    </div>
+    <div class="footer-social">
+        <a href="#"><img src="/imges/25-256843_instagram-logo-[new]-vector-eps-free-download-logo-instagram-logo-vector.png" alt="Instagram"></a>
+        <a href="#"><img src="/imges/facebook-logo-1-2.png" alt="Facebook"></a>
+        <a href="#"><img src="/imges/OIP (1).jpeg" alt="Twitter"></a>
+        <a href="#"><img src="/imges/linkin.jpeg" alt="LinkedIn"></a>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Collegium. All rights reserved.</p>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/nav script.js"></script>
+</body>
+</html>
